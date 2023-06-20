@@ -1,0 +1,40 @@
+﻿
+@using Library.MODEL.Dto
+@model List<BookDto>
+
+
+<h3 class="text-center">Book List</h3>
+<a asp-controller="Book" asp-action="Create" asp-area="Management" style="float:right;">Create</a>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>PageCount</th>
+            <th>Author</th>
+            <th>BookType</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (BookDto item in Model)
+        {
+            <tr>
+                @{int index = 1;
+                }
+                <th>@index</th>
+                <th>@item.BookName</th>
+                <th>@item.PageCount</th>
+                <th>@item.AuthorFullName</th>
+                <th>@item.BookTypeName</th>
+                <th>
+                    <a class="big-icon" asp-controller="Book" asp-action="Edit" asp-route-id="@item.ID"><i class="bi bi-pencil-square"></i></a>
+                    <a class="big-icon m-icon" asp-controller="Book" asp-action="Delete" asp-route-id="@item.ID"><i class="bi bi-x-circle-fill"></i></a>
+                </th>
+                @{ index++; }
+            </tr>
+                }
+         
+        </tbody>
+</table>

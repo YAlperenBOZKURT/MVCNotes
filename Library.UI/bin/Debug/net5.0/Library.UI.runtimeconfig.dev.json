@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\yalpe\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\yalpe\\.nuget\\packages"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "lrm4lqJs9c5IpL22ybl9URHTJ4JSO6wsRgnksAj+VDWTPve6BJH+I+qyCfJTgD2CLQyTAVOvlfvj7+I8jEBILQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yalpe\\OneDrive\\Masaüstü\\Gelişim Süreci\\ASP .NET CORE\\Library\\Library.MODEL\\Library.MODEL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yalpe\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
+    "C:\\Users\\yalpe\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\yalpe\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.2\\fluentvalidation.dependencyinjectionextensions.11.5.2.nupkg.sha512",
+    "C:\\Users\\yalpe\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
