@@ -1,5 +1,5 @@
 # MVCNotes
- I created this basic website about Library to solidify my knowledge about .Net Core MVC.
+## I created this basic website about Library to solidify my knowledge about .Net Core MVC.
 
 - .Net Core 5.0
 - Repository Design Pattern
